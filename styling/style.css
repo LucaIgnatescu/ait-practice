@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.card{
+  display: block;
+  border: 3px solid black;
+  margin:10px;
+  flex: inital;
+  width: 20vw;
+
+}
+
+.card:first-child{
+  background-color: blue;
+  flex: auto;
+}
